@@ -6,9 +6,7 @@
  *
  * @category Configuration
  * @package  ErrorManagement
- * @author   Nancy
- * @license  http://www.beachbody.com, Beachbody, LLC.
- * @link     {}
+ * @author   Tarun
  */
 return array (
 		'listeners' => array (
