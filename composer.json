@@ -1,5 +1,5 @@
 {
-   "name": "tarun-singhal/AppErrorManager",
+   "name": "tarun-singhal/apperrormanager",
    "description": "To caputure the Api Errors/Exceptions in Apigility or REST API.",
    "type": "library",
    "keywords": [
