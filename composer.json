@@ -7,7 +7,7 @@
        "API",
        "ApiGility",
        "error manager",
-       "exception",		
+       "exception"		
    ],
    "homepage": "https://github.com/tarun-singhal/AppErrorManager",
    "authors": [
