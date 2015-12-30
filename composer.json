@@ -1,15 +1,15 @@
 {
-   "name": "tarun-singhal/applogger",
-   "description": "API Logger or monitor in Zend Framework 2 and has ability to use in Apigility.",
+   "name": "tarun-singhal/AppErrorManager"
+   "description": "To caputure the Api Errors/Exceptions in Apigility or REST API.",
    "type": "library",
    "keywords": [
        "zf2",
        "API",
        "ApiGility",
-       "logger",
-       "api log"		
+       "error manager",
+       "exception"		
    ],
-   "homepage": "https://github.com/tarun-singhal/AppLogger",
+   "homepage": "https://github.com/tarun-singhal/AppErrorManager",
    "authors": [
        {
            "name": "Tarun Singhal",

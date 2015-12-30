@@ -1,31 +1,29 @@
 # AppLogger
-AppLogger is basically used to log Rest-API and has ability to connect with the Apigility
+AppErrorManager is used to capture the API error and exception on fly.
+It is very usefull to manage the single place to capture the error message and error code.
 
-* Steps to Enable and usage of AppLogger Module
+
+* Steps to Enable and usage of AppErrorMAnager Module
 
 Step 1 :To enable the Module in ZF2, Include the module name inside application.config.php file
 ```php
 return array(
   ...,
   ...,
-  'AppLogger'
+  'ErrorManager'
 );
 ```
+Step 2: now if you want to capture the api exception then change in ApiProblem i.e. new ApiProblem(200, '1001');
+where, '1001' : is the error code, 
 
-Step 2: Please check the log directory exist at module root level, 
-Please create api_log/ inside log dir. and should have full permission to write and create files inside api_log dir.
-
-Step 3: If you want to use in ZF2-ApiGility, then enable the API-LOG button on home view of Apigility.
-Place the below code inside vendor/zfcampus/zf-apigility-welcome/view/zf-apigility-welcome/welcome.phtml and 
-locate "API Documentation" key.
+Step 3: Open the config/Error.ini file, please the error code inside that like as below:
 ```php
-    <?php if (class_exists('AppLogger\Module', false)): ?>
-        <a href="<?php echo $this->url('applog') ?>" class="btn btn-lg ag-welcome-btn-outline">API Log</a>
-    <?php endif; ?>
-```
-Step 4: If you are not using it in Apigility then you can call the Log view via:
-http://<domain-name>/applog
+[test.rest.respapiname]
+1001 = api problem found
 
-I hope it will help you to monitor the API Calls.
+``` 
+Step 4: Now you can manage the api code and message at one place.
+
+I hope it will help you to handle exception/error and to identify the actual debug happening in the API Calls.
 
 
