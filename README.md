@@ -1,4 +1,4 @@
-# AppLogger
+# AppErrorManager
 AppErrorManager is used to capture the API error and exception on fly.
 It is very usefull to manage the single place to capture the error message and error code.
 
