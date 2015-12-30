@@ -1,5 +1,5 @@
 {
-   "name": "tarun-singhal/AppErrorManager"
+   "name": "tarun-singhal/AppErrorManager",
    "description": "To caputure the Api Errors/Exceptions in Apigility or REST API.",
    "type": "library",
    "keywords": [
@@ -7,7 +7,7 @@
        "API",
        "ApiGility",
        "error manager",
-       "exception"		
+       "exception",		
    ],
    "homepage": "https://github.com/tarun-singhal/AppErrorManager",
    "authors": [
